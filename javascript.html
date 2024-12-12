@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Bootstrap Example</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <table border="3px" width="500px">
+        <tr>
+            <td>
+                name
+            </td>
+            <td>
+                employeeid
+            </td>
+            <td>
+                salary
+            </td>
+            <td>
+                address
+            </td>
+        </tr>
+        <!-- 2nd row -->
+        <tr>
+            <td id="name">
+                
+            </td>
+            <td id="employeeid">
+                
+            </td>
+            <td id="salary">
+                
+            </td>
+            <td id="address">
+                
+            </td>
+        </tr>
+    </table>
+    <script>
+        var employee={
+            name:"sarah",
+            employeeid:1367,
+            salary:11111,
+            address:"bahria town,karachi"
+        }
+        document.getElementById("name").innerHTML=employee.name;
+        document.getElementById("employeeid").innerHTML=employee.employeeid;
+        document.getElementById("salary").innerHTML=employee.salary;
+        document.getElementById("address").innerHTML=employee.address;
+    </script>
+</body>
+</html>
